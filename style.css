@@ -1,0 +1,143 @@
+body {
+    background-color: aqua;
+}
+.cont{
+    text-align: center;
+    max-width:350px;
+    padding:18px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: black;
+    margin: 50px auto;
+    
+}
+
+.cont input{
+    width: 80%;
+    margin-bottom:18px;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    font-size: 30px;
+}
+
+
+#clear button{
+    padding: 14px 22px;
+    border-radius: 4px;
+    /* color: darkgoldenrod; */
+    border-radius: 20px;
+    background-color: crimson;
+   
+}
+#equalto {
+    background-color: crimson;
+    border-radius: 20px;
+}
+.cont button{
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 17px 10px;
+    cursor: pointer;
+    background-color: rgb(7, 7, 7);
+    color: white;
+    display: inline-block;
+    border: none;
+    box-shadow: 0 0 15px 1px rgb(5, 5, 5);
+}  
+
+.btnOne button {
+    padding: 15px 25px;
+}
+.btnTwo button {
+    padding: 15px 25px;
+
+}.btnThree button{
+    padding: 15px 25px;
+
+}
+
+
+.btnLast button{
+    padding: 15px 26px;
+
+}
+
+@media(max-width:388px) {
+    .cont button {
+        margin: 13px 7px;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:364px) {
+    .cont button {
+        font-size: 14px;
+         margin: 10px 10px;
+    }
+    .cont input {
+        width: 75%;
+        padding-bottom: 10px;
+    }
+    .btnOne button {
+        padding: 15px 20px;
+    }
+    .btnTwo button {
+        padding: 15px 20px;
+    
+    }.btnThree button{
+        padding: 15px 20px;
+    
+    }
+    
+    
+    .btnLast button{
+        padding: 15px 21px;
+    
+    }
+
+    #clear button{
+    padding: 14px 17px;
+
+   
+}
+}
+
+@media(max-width:340px) {
+#clear button {
+
+    margin: 10px 9px;
+}
+    .cont button {
+        margin: 10px 7px;
+        font-size: 14px;
+    }
+    .cont input {
+        font-size: 19px;
+    }
+}
+
+@media(max-width:333px) {
+    .cont button {
+    padding: 19px 19px;
+    border-radius: 20px;
+    }
+    #clear button {
+        padding: 14px 14px;
+    }
+    .cont input {
+            padding: 10px 20px;
+    }
+}
+
+@media(max-width:309px) {
+    #clear button {
+        margin: 10px 6px;
+
+    }
+    .cont button {
+        margin: 10px 4px;
+    }
+}

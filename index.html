@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.js">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="cont">
+    <input id="calculator" placeholder="0" type="text">
+    <div id="clear">
+        <button id="ac" onclick="document.getElementById('calculator').value = '' ">AC</button>
+        <button onclick="document.getElementById('calculator').value += '%' ">%</button>
+        <button onclick="document.getElementById('calculator').value += '+/-' ">+/-</button>
+        <button onclick="document.getElementById('calculator').value += '/' ">÷</button>
+    </div>
+
+    <div class="btnOne">
+        <button onclick="document.getElementById('calculator').value += '7' ">7</button>
+        <button onclick="document.getElementById('calculator').value += '8' ">8</button>
+        <button onclick="document.getElementById('calculator').value += '9' ">9</button>
+        <button onclick="document.getElementById('calculator').value += '*' ">x</button>
+    </div>
+
+    <div class="btnTwo">
+        <button onclick="document.getElementById('calculator').value += '4' ">4</button>
+        <button onclick="document.getElementById('calculator').value += '5' ">5</button>
+        <button onclick="document.getElementById('calculator').value += '6' ">6</button>
+        <button onclick="document.getElementById('calculator').value += '-' ">-</button>
+    </div>
+
+    <div class="btnThree">
+        <button onclick="document.getElementById('calculator').value += '1' ">1</button>
+        <button onclick="document.getElementById('calculator').value += '2' ">2</button>
+        <button onclick="document.getElementById('calculator').value += '3' ">3</button>
+        <button onclick="document.getElementById('calculator').value += '+' ">+</button>
+    </div>
+
+    <div class="btnLast">
+        <button onclick="document.getElementById('calculator').value += '0' ">0</button>
+        <button onclick="document.getElementById('calculator').value += '.' ">.</button>
+        <button onclick="document.getElementById('calculator').value += '/' ">/</button>
+        <button id="equalto" onclick="document.getElementById('calculator').value= eval(document.getElementById('calculator').value )">=</button>
+    </div>
+</section>
+
+
+
+
+    
+</body>
+</html>
